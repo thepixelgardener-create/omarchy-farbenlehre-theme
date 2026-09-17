@@ -6,7 +6,7 @@ The three wallpapers are AI-generated painterly interpretations of Goethe’s id
 
 | File | Idea |
 |---|---|
-| `01-farbenkreis.png` | Six pigment veils around a dark center, reflected in water |
+| `01-farbenkreis.png` | Six pigment veils circling a dark center over moonlit water, watched from the ruins by a seated figure |
 | `02-truebe.png` | Warm light and cool darkness seen through atmospheric haze |
 | `03-kanten.png` | Cool and warm fringes at the boundary between light and dark stone |
 
@@ -20,7 +20,7 @@ The checker uses black and white bounds instead of samples from the old artwork,
 
 ## Preview
 
-`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing Bash, Neovim displaying colors.toml, btop CPU/memory graphs, the open Omarchy menu, the live bar and a smaller exposed area of the replacement Farbenkreis wallpaper. The demonstration editor uses an isolated configuration with colors from the theme; it does not represent the default Neovim setup. It was captured on 2026-09-17. The wallpaper is scaled by the desktop from its native 1672×941 image; the screenshot does not make the source artwork native 4K.
+`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing Bash, Neovim displaying colors.toml, btop CPU/memory graphs, the open Omarchy menu, the live bar and a smaller exposed area of an earlier Farbenkreis wallpaper, since superseded. The demonstration editor uses an isolated configuration with colors from the theme; it does not represent the default Neovim setup. It was captured on 2026-09-17. The wallpaper is scaled by the desktop from its native 1672×941 image; the screenshot does not make the source artwork native 4K.
 
 ## License
 

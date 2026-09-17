@@ -22,7 +22,7 @@ omarchy theme install https://github.com/thepixelgardener-create/omarchy-farbenl
 
 Three wallpapers interpreting Goethe’s ideas:
 
-1. **Farbenkreis:** Six pigment veils forming a luminous circle above dark water.
+1. **Farbenkreis:** Six pigment veils circling over moonlit water, watched from the ruins.
 2. **Trübe:** warm and cold light emerging through a misty landscape.
 3. **Kanten:** warm and cold fringes at a luminous opening between dark stone planes.
 
