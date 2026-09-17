@@ -20,12 +20,13 @@ omarchy theme install https://github.com/thepixelgardener-create/omarchy-farbenl
 
 ## Wallpapers
 
-Four wallpapers interpreting Goethe’s ideas:
+Three wallpapers interpreting Goethe’s ideas:
 
 1. **Farbenkreis:** Six pigment veils forming a luminous circle above dark water.
 2. **Trübe:** warm and cold light emerging through a misty landscape.
 3. **Kanten:** warm and cold fringes at a luminous opening between dark stone planes.
-4. **Grenze:** Newton’s prism and Goethe’s world of perceived color, joined in a dark, painterly landscape.
+
+A fourth image, [Grenze](docs/grenze.png), sets Newton’s prism against Goethe’s world of perceived color. It carries lettering at its edges and loses some of it on a wide or tall crop, so it lives in `docs/` as an illustration instead of shipping as a wallpaper.
 
 ## Check it yourself
 

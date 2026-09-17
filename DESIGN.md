@@ -102,7 +102,7 @@ The checker follows the colors Omarchy's own templates draw: terminal ANSI color
 
 ## What the theme ships, and what it leaves to Omarchy
 
-Shipped: `colors.toml`, `icons.theme`, four wallpapers, `preview.png`, these notes and the `tools/` folder.
+Shipped: `colors.toml`, `icons.theme`, three wallpapers, `preview.png`, these notes and the `tools/` folder.
 
 Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, btop, Chromium, the shell and Hyprland. Omarchy generates them from `colors.toml`, and the checks above cover the colors those templates use. Omarchy also drops `.lua` files, terminal configs and `vscode.json` from themes installed through git, so shipping them would not work anyway.
 
