@@ -17,7 +17,7 @@ The new PNGs are 1672×941, the native resolution returned by the generator. The
 
 ## Preview
 
-`preview.png` is a rendered mock of an Omarchy desktop, not a screenshot, and still shows the original wallpaper. A current desktop screenshot is still needed before listing the theme.
+`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing the replacement Farbenkreis wallpaper and the live bar. It was captured on 2026-09-17. The wallpaper is scaled by the desktop from its native 1672×941 image; the screenshot does not make the source artwork native 4K.
 
 ## License
 

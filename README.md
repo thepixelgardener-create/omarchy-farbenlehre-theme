@@ -2,7 +2,9 @@
 
 A dark theme for [Omarchy](https://omarchy.org), built on Goethe's *Theory of Colours* (1810).
 
-![Farbenlehre preview](preview.png)
+![Farbenlehre desktop with Farbenkreis wallpaper](preview.png)
+
+Real Omarchy desktop capture with the new Farbenkreis wallpaper.
 
 ```sh
 omarchy theme install https://github.com/thepixelgardener-create/omarchy-farbenlehre-theme
