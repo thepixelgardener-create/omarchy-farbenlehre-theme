@@ -27,6 +27,14 @@ Four wallpapers interpreting Goethe’s ideas:
 3. **Kanten:** warm and cold fringes at a luminous opening between dark stone planes.
 4. **Grenze:** Newton’s prism and Goethe’s world of perceived color, joined in a dark, painterly landscape.
 
+## Check it yourself
+
+```sh
+python3 tools/check.py colors.toml
+```
+
+Python 3.11 or newer, nothing else. It runs 38 checks: terminal and editor contrast, red–green separation under a simulation of red-green color blindness, and lock screen and launcher text against the brightest and darkest wallpaper pixel a screen can show. [DESIGN.md](DESIGN.md) explains every one and lists the measured values.
+
 ## Credits and license
 
-The ideas are Goethe's, from *Zur Farbenlehre* (1810), which is in the public domain. Everything in this repository, wallpapers included, is original work under the MIT license.
+The ideas are Goethe's, from *Zur Farbenlehre* (1810), which is in the public domain. The four wallpapers are AI-generated; [ASSETS.md](ASSETS.md) records how each one was made, and [GENERATION.md](GENERATION.md) holds the prompts for the three that have them. The palette, `tools/check.py` and the written notes are original work. Everything in this repository is released under the MIT license.

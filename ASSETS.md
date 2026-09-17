@@ -2,7 +2,7 @@
 
 ## Wallpapers
 
-The first three wallpapers were replaced using the built-in OpenAI image generation tool, guided by DESIGN.md. These are painterly interpretations of Goethe’s ideas. Exact prompts are recorded in GENERATION.md.
+All four wallpapers are AI-generated painterly interpretations of Goethe’s ideas. `01`–`03` were made with the built-in OpenAI image generation tool, guided by DESIGN.md; their exact prompts are recorded in GENERATION.md. `04-grenze.png` was made earlier, in ChatGPT, and its prompt was not kept.
 
 | File | Idea |
 |---|---|
@@ -11,7 +11,7 @@ The first three wallpapers were replaced using the built-in OpenAI image generat
 | `03-kanten.png` | Cool and warm fringes at the boundary between light and dark stone |
 | `04-grenze.png` | Newton’s prism and Goethe’s world of perceived color in a painterly landscape |
 
-The new PNGs are 1672×941, the native resolution returned by the generator. They are not native 4K images. Inspect cropping on the intended display.
+All four PNGs are 1672×941, the native resolution returned by the generator. They are not native 4K images, and a 4K screen upscales them about 2.3×. Inspect cropping on the intended display: `04-grenze.png` carries text near all four edges and loses parts of it on a 21:9 or 16:10 crop.
 
 The checker uses black and white bounds instead of samples from the old artwork, so its overlay contrast checks apply to all four wallpapers at the modeled opacity values.
 
@@ -21,4 +21,4 @@ The checker uses black and white bounds instead of samples from the old artwork,
 
 ## License
 
-The repository’s MIT license remains in place. The replacement images are AI-generated; the previous claim that all wallpapers were drawn solely with Pillow no longer applies. The provenance of `04-grenze.png` is unchanged by this replacement.
+The repository’s MIT license remains in place. All four wallpapers are AI-generated; the earlier claim that every wallpaper was drawn with Pillow no longer applies to any of them. The palette, `tools/check.py` and the written notes are original work.
