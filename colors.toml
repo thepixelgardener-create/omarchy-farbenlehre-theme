@@ -1,0 +1,38 @@
+# Farbenlehre: a dark Omarchy theme after Goethe's Theory of Colours (1810).
+# Every value follows a rule in DESIGN.md; tools/check.py verifies them.
+
+mode = "dark"
+
+accent = "#e4c124"
+selection = "#3b2a4d"
+muted = "#6f7683"
+
+# Steigerung: yellow intensifying toward red, the summit of Goethe's color circle
+hyprland_active_border = "rgba(e4c124ff) rgba(df576cff) 45deg"
+hyprland_inactive_border = "#6f7683"
+
+background = "#0f141c"
+dark_background = "#0a0e15"
+darker_background = "#05080d"
+lighter_background = "#191e28"
+
+foreground = "#eae6dd"
+dark_foreground = "#b0aca3"
+light_foreground = "#f3f0e9"
+bright_foreground = "#fefcf7"
+
+red = "#df576c"
+yellow = "#d8b82c"
+orange = "#e3793d"
+green = "#6ecb7e"
+cyan = "#3badb2"
+blue = "#578cd9"
+magenta = "#ad76c6"
+brown = "#a27e62"
+
+bright_red = "#f48490"
+bright_yellow = "#e5cc6c"
+bright_green = "#92da9c"
+bright_cyan = "#6bbcc0"
+bright_blue = "#7ca7e7"
+bright_magenta = "#c195d6"
