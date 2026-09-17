@@ -17,7 +17,7 @@ The new PNGs are 1672×941, the native resolution returned by the generator. The
 
 ## Preview
 
-`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing the replacement Farbenkreis wallpaper and the live bar. It was captured on 2026-09-17. The wallpaper is scaled by the desktop from its native 1672×941 image; the screenshot does not make the source artwork native 4K.
+`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing Bash, Neovim displaying colors.toml, btop CPU/memory graphs, the open Omarchy menu, the live bar and a smaller exposed area of the replacement Farbenkreis wallpaper. The demonstration editor uses an isolated configuration with colors from the theme; it does not represent the default Neovim setup. It was captured on 2026-09-17. The wallpaper is scaled by the desktop from its native 1672×941 image; the screenshot does not make the source artwork native 4K.
 
 ## License
 

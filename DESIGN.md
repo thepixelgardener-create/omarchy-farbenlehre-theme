@@ -105,5 +105,5 @@ Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, b
 3. Push, then install from the clean URL: `omarchy theme install <repo-url>`.
 4. Run `omarchy dev theme-preview farbenlehre` and look at the ramp and the selected-text sample.
 5. Look at a terminal with `git diff`, Neovim, btop, the Omarchy menu, a notification and the lock screen.
-6. Keep `preview.png` current with a real desktop screenshot. The current capture shows the replacement Farbenkreis wallpaper and live Omarchy bar.
+6. Keep `preview.png` current with a real desktop screenshot. The current capture shows Bash, a palette editor, btop, the Omarchy menu and bar, with the replacement Farbenkreis wallpaper behind them.
 7. Check each wallpaper on the widest and the tallest screen you have.
