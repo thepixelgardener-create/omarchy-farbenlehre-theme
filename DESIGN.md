@@ -68,6 +68,14 @@ On his 1809 color circle Goethe wrote a quality beside each color. They don't dr
 
 The bright variants keep the same hues and add brightness. `hyprland_active_border` is a gradient from the accent to the red at 45°; `hyprland_inactive_border` is the muted grey.
 
+## Check it yourself
+
+```sh
+python3 tools/check.py colors.toml
+```
+
+Requires Python 3.11 or newer, with no additional packages. Checks palette contrast, red–green separation, and wallpaper overlay contrast at the modeled 80% lock-screen and 95% launcher background opacity.
+
 ## Measured results
 
 `python3 tools/check.py colors.toml` runs 38 checks, including conservative wallpaper overlay bounds. Black and white bound every sRGB wallpaper pixel; the checker also verifies that foreground luminance exceeds the brightest possible overlay. Under the modeled 80% and 95% background opacity, white therefore gives the lowest text contrast. These checks do not inspect composition or cropping.
@@ -101,7 +109,7 @@ Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, b
 ## Release checklist
 
 1. `python3 tools/check.py colors.toml` passes.
-2. Inspect the generated wallpaper PNGs; the legacy wallpaper script does not reproduce them. See ASSETS.md.
+2. Inspect the wallpaper PNGs and their provenance in ASSETS.md.
 3. Push, then install from the clean URL: `omarchy theme install <repo-url>`.
 4. Run `omarchy dev theme-preview farbenlehre` and look at the ramp and the selected-text sample.
 5. Look at a terminal with `git diff`, Neovim, btop, the Omarchy menu, a notification and the lock screen.

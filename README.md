@@ -25,15 +25,7 @@ Four wallpapers interpreting Goethe’s ideas:
 1. **Farbenkreis:** Six pigment veils forming a luminous circle above dark water.
 2. **Trübe:** warm and cold light emerging through a misty landscape.
 3. **Kanten:** warm and cold fringes at a luminous opening between dark stone planes.
-4. **Grenze:** the existing composition, preserved unchanged.
-
-## Check it yourself
-
-```sh
-python3 tools/check.py colors.toml
-```
-
-Requires Python 3.11 or newer, with no additional packages. Checks palette contrast, red–green separation, and text contrast over wallpaper overlays using black and white as conservative bounds. The overlay checks cover any wallpaper under the checker’s assumed 80% lock-screen and 95% launcher background opacity.
+4. **Grenze:** Newton’s prism and Goethe’s world of perceived color, joined in a dark, painterly landscape.
 
 ## Credits and license
 
