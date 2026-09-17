@@ -2,20 +2,23 @@
 
 ## Wallpapers
 
-All three wallpapers are drawn by `tools/wallpapers.py`, using Pillow and nothing else. No image is traced, sampled or adapted from an existing artwork or photograph. The ideas come from Goethe's *Zur Farbenlehre* (1810), which is in the public domain; the compositions are original.
+The first three wallpapers were replaced using the built-in OpenAI image generation tool, guided by DESIGN.md. These are painterly interpretations of Goethe’s ideas. Exact prompts are recorded in GENERATION.md.
 
 | File | Idea |
 |---|---|
-| `01-farbenkreis.png` | Goethe's six colors on a circle, with lines joining each color to the one the eye demands |
-| `02-truebe.png` | The turbid medium: light behind haze turning yellow and red, darkness behind haze turning blue |
-| `03-kanten.png` | Edge colors: a bright band on darkness, fringed blue and violet on one side and yellow and red on the other |
+| `01-farbenkreis.png` | Six pigment veils around a dark center, reflected in water |
+| `02-truebe.png` | Warm light and cool darkness seen through atmospheric haze |
+| `03-kanten.png` | Cool and warm fringes at the boundary between light and dark stone |
+| `04-grenze.png` | Existing composition, preserved byte-for-byte |
 
-All images are 3840×2160. The content stays inside the area that survives both a 21:9 and a 16:10 crop.
+The new PNGs are 1672×941, the native resolution returned by the generator. They are not native 4K images. Inspect cropping on the intended display.
+
+`tools/wallpapers.py` remains a legacy generator for the original procedural images. Running it against `backgrounds/` overwrites the new artwork; use a separate scratch output directory instead. `tools/wallpaper-colors.json` contains the original illustrative color samples, not measurements of the new PNGs.
 
 ## Preview
 
-`preview.png` is a rendered mock of an Omarchy desktop in this palette, not a screenshot. Replace it with a real screenshot before listing the theme anywhere.
+`preview.png` is a rendered mock of an Omarchy desktop, not a screenshot, and still shows the original wallpaper. A current desktop screenshot is still needed before listing the theme.
 
 ## License
 
-The wallpapers and the preview are covered by the same MIT license as the rest of the repository.
+The repository’s MIT license remains in place. The replacement images are AI-generated; the previous claim that all wallpapers were drawn solely with Pillow no longer applies. The provenance of `04-grenze.png` is unchanged by this replacement.

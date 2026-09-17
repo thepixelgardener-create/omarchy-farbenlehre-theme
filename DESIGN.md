@@ -70,7 +70,7 @@ The bright variants keep the same hues and add brightness. `hyprland_active_bord
 
 ## Measured results
 
-`python3 tools/check.py colors.toml --wallpapers tools/wallpaper-colors.json` runs 50 checks. All of them pass.
+`python3 tools/check.py colors.toml --wallpapers tools/wallpaper-colors.json` runs 50 checks. All of them pass for the palette and original wallpaper samples. The wallpaper samples do not validate the replacement artwork.
 
 | Check | Result | Target |
 |---|---|---|
@@ -94,14 +94,14 @@ The checker follows the colors Omarchy's own templates draw: terminal ANSI color
 
 ## What the theme ships, and what it leaves to Omarchy
 
-Shipped: `colors.toml`, `icons.theme`, three wallpapers, `preview.png`, these notes and the `tools/` folder.
+Shipped: `colors.toml`, `icons.theme`, four wallpapers, `preview.png`, these notes and the `tools/` folder.
 
 Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, btop, Chromium, the shell and Hyprland. Omarchy generates them from `colors.toml`, and the checks above cover the colors those templates use. Omarchy also drops `.lua` files, terminal configs and `vscode.json` from themes installed through git, so shipping them would not work anyway.
 
 ## Release checklist
 
 1. `python3 tools/check.py colors.toml --wallpapers tools/wallpaper-colors.json` passes.
-2. `python3 tools/wallpapers.py backgrounds` regenerates identical images.
+2. Inspect the generated wallpaper PNGs; the legacy wallpaper script does not reproduce them. See ASSETS.md.
 3. Push, then install from the clean URL: `omarchy theme install <repo-url>`.
 4. Run `omarchy dev theme-preview farbenlehre` and look at the ramp and the selected-text sample.
 5. Look at a terminal with `git diff`, Neovim, btop, the Omarchy menu, a notification and the lock screen.

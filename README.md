@@ -18,20 +18,20 @@ omarchy theme install https://github.com/thepixelgardener-create/omarchy-farbenl
 
 ## Wallpapers
 
-Three wallpapers, drawn in code:
+Four wallpapers interpreting Goethe’s ideas:
 
-1. **Farbenkreis:** Goethe's six colors, with lines to the color each one demands.
-2. **Trübe:** light and darkness seen through haze.
-3. **Kanten:** the colored edges a prism shows where light meets darkness.
+1. **Farbenkreis:** Six pigment veils forming a luminous circle above dark water.
+2. **Trübe:** warm and cold light emerging through a misty landscape.
+3. **Kanten:** warm and cold fringes at a luminous opening between dark stone planes.
+4. **Grenze:** the existing composition, preserved unchanged.
 
 ## Check it yourself
 
 ```sh
 python3 tools/check.py colors.toml --wallpapers tools/wallpaper-colors.json
-python3 tools/wallpapers.py backgrounds
 ```
 
-The checker needs only Python 3.11 or newer; the wallpaper script needs Pillow.
+The checker needs Python 3.11 or newer. Its wallpaper samples describe the original procedural images, not the replacement artwork. See ASSETS.md and GENERATION.md for provenance. The legacy Pillow script recreates the old wallpapers; run it only into a separate scratch directory.
 
 ## Credits and license
 
