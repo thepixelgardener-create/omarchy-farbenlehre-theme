@@ -20,7 +20,7 @@ The checker uses black and white bounds instead of samples from the old artwork,
 
 ## Preview
 
-`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing Bash, Neovim displaying colors.toml, btop CPU/memory graphs, the open Omarchy menu, the live bar and a smaller exposed area of an earlier Farbenkreis wallpaper, since superseded. The demonstration editor uses an isolated configuration with colors from the theme; it does not represent the default Neovim setup. It was captured on 2026-09-17. The wallpaper is scaled by the desktop from its native 1672×941 image; the screenshot does not make the source artwork native 4K.
+`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing Bash, Neovim on `colors.toml`, btop, the open Omarchy menu, the live bar and an exposed area of the current Farbenkreis wallpaper. Neovim is an ordinary Omarchy LazyVim setup rendering the theme's generated colors, not a mock. btop runs with its process list switched off, so the capture does not publish a list of what was running. Its CPU graphs show load generated during the capture, so the panels are not flat. Captured on 2026-09-17. The wallpaper is scaled up by the desktop from its native 1672×941 image; the screenshot does not make the source artwork native 4K.
 
 ## License
 

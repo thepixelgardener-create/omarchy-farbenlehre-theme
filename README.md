@@ -2,9 +2,9 @@
 
 A dark theme for [Omarchy](https://omarchy.org), built on Goethe's *Theory of Colours* (1810).
 
-![Farbenlehre: Bash, palette editor, btop and Omarchy menu](preview.png?v=20260917-desktop-apps)
+![Farbenlehre: Bash, Neovim, btop and the Omarchy menu](preview.png?v=20260917-regenerated)
 
-Real Omarchy desktop capture with Bash, a palette editor, btop and the Omarchy menu. The Farbenkreis wallpaper remains visible behind the applications.
+Real Omarchy desktop capture with Bash, Neovim on `colors.toml`, btop and the Omarchy menu, over the Farbenkreis wallpaper.
 
 ```sh
 omarchy theme install https://github.com/thepixelgardener-create/omarchy-farbenlehre-theme
