@@ -70,7 +70,7 @@ The bright variants keep the same hues and add brightness. `hyprland_active_bord
 
 ## Measured results
 
-`python3 tools/check.py colors.toml --wallpapers tools/wallpaper-colors.json` runs 50 checks. All of them pass for the palette and original wallpaper samples. The wallpaper samples do not validate the replacement artwork.
+`python3 tools/check.py colors.toml` runs 38 checks, including conservative wallpaper overlay bounds. Black and white bound every sRGB wallpaper pixel; the checker also verifies that foreground luminance exceeds the brightest possible overlay. Under the modeled 80% and 95% background opacity, white therefore gives the lowest text contrast. These checks do not inspect composition or cropping.
 
 | Check | Result | Target |
 |---|---|---|
@@ -79,7 +79,7 @@ The bright variants keep the same hues and add brightness. `hyprland_active_bord
 | Muted on background | 4.04:1 | 3:1 |
 | Accent in menu and launcher selection | 8.76:1 | 4.5:1 |
 | Selected text | 12.6:1 | 4.5:1 |
-| Lock screen text, worst wallpaper color | 8.1:1 | 4.5:1 |
+| Lock screen text, white wallpaper bound | 7.99:1 | 4.5:1 |
 | Red vs green, deuteranopia | 0.117 | 0.10 |
 | Red vs green, protanopia | 0.250 | 0.10 |
 | Closest signal pair (blue/magenta) | 0.124 | 0.07 |
@@ -100,7 +100,7 @@ Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, b
 
 ## Release checklist
 
-1. `python3 tools/check.py colors.toml --wallpapers tools/wallpaper-colors.json` passes.
+1. `python3 tools/check.py colors.toml` passes.
 2. Inspect the generated wallpaper PNGs; the legacy wallpaper script does not reproduce them. See ASSETS.md.
 3. Push, then install from the clean URL: `omarchy theme install <repo-url>`.
 4. Run `omarchy dev theme-preview farbenlehre` and look at the ramp and the selected-text sample.

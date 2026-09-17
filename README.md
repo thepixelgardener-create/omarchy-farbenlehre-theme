@@ -30,10 +30,10 @@ Four wallpapers interpreting Goethe’s ideas:
 ## Check it yourself
 
 ```sh
-python3 tools/check.py colors.toml --wallpapers tools/wallpaper-colors.json
+python3 tools/check.py colors.toml
 ```
 
-The checker needs Python 3.11 or newer. Its wallpaper samples describe the original procedural images, not the replacement artwork. See ASSETS.md and GENERATION.md for provenance. The legacy Pillow script recreates the old wallpapers; run it only into a separate scratch directory.
+Requires Python 3.11 or newer, with no additional packages. Checks palette contrast, red–green separation, and text contrast over wallpaper overlays using black and white as conservative bounds. The overlay checks cover any wallpaper under the checker’s assumed 80% lock-screen and 95% launcher background opacity.
 
 ## Credits and license
 

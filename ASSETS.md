@@ -13,7 +13,7 @@ The first three wallpapers were replaced using the built-in OpenAI image generat
 
 The new PNGs are 1672×941, the native resolution returned by the generator. They are not native 4K images. Inspect cropping on the intended display.
 
-`tools/wallpapers.py` remains a legacy generator for the original procedural images. Running it against `backgrounds/` overwrites the new artwork; use a separate scratch output directory instead. `tools/wallpaper-colors.json` contains the original illustrative color samples, not measurements of the new PNGs.
+`tools/wallpapers.py` remains a legacy generator for the original procedural images. Running it against `backgrounds/` overwrites the new artwork; use a separate scratch output directory instead. The checker uses black and white bounds instead of samples from the old artwork, so its overlay contrast checks apply to all four wallpapers at the modeled opacity values.
 
 ## Preview
 

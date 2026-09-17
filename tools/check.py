@@ -5,7 +5,7 @@ Checks a colors.toml against the color pairs Omarchy actually draws
 (terminal, editor, shell surfaces, btop) and against the rules the theme
 takes from Goethe's Theory of Colours. Standard library only.
 
-    python3 tools/check.py colors.toml [--wallpapers backgrounds/palette.json]
+    python3 tools/check.py colors.toml [--wallpapers custom-samples.json]
 
 Contrast uses the WCAG 2 formula. Colorblind views use the Machado 2009
 matrices at full severity. Color distance is Euclidean distance in OKLab.
@@ -74,7 +74,10 @@ def hue_gap(a, b):
 # ---------------------------------------------------------------- checks
 SIX = ["red", "green", "yellow", "blue", "magenta", "cyan"]
 
-def run(p, wallpaper_colors=()):
+WALLPAPER_BOUNDS = (("black bound", "#000000"), ("white bound", "#ffffff"))
+
+
+def run(p, wallpaper_colors=WALLPAPER_BOUNDS):
     bg, fg = p["background"], p["foreground"]
     rows = []
 
@@ -110,6 +113,12 @@ def run(p, wallpaper_colors=()):
         ratio("Shell", f"lock text on 80% background over wallpaper {name}", fg, mix(w, bg, 0.80), 4.5)
         ratio("Shell", f"launcher text on 95% background over wallpaper {name}", fg, mix(w, bg, 0.95), 4.5)
 
+    # For this dark theme, foreground must stay above the brightest possible
+    # overlay. With that ordering, white is the worst-case wallpaper pixel.
+    for opacity in (0.80, 0.95):
+        dist("Shell", f"foreground brighter than {opacity:.0%} overlay on white",
+             luminance(fg) - luminance(mix("#ffffff", bg, opacity)), 0.000001)
+
     # colorblind
     for kind in ("deuteranopia", "protanopia"):
         dist("Colorblind", f"red vs green, {kind}", distance(p["red"], p["green"], kind), 0.10)
@@ -138,7 +147,7 @@ def main():
     path = args[0]
     with open(path, "rb") as f:
         p = {k: v for k, v in tomllib.load(f).items() if not (isinstance(v, str) and " " in v)}
-    walls = ()
+    walls = WALLPAPER_BOUNDS
     if "--wallpapers" in args:
         with open(args[args.index("--wallpapers") + 1]) as f:
             walls = tuple(json.load(f).items())
