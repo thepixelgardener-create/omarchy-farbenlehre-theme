@@ -1,5 +1,5 @@
 # Farbenlehre: a dark Omarchy theme after Goethe's Theory of Colours (1810).
-# Every value follows a rule in DESIGN.md; tools/check.py verifies them.
+# Every value follows a rule in DESIGN.md, which lists the measured results.
 
 mode = "dark"
 

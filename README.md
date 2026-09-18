@@ -28,14 +28,10 @@ Three wallpapers interpreting Goethe’s ideas:
 
 A fourth image, [Grenze](docs/grenze.png), sets Newton’s prism against Goethe’s world of perceived color. It carries lettering at its edges and loses some of it on a wide or tall crop, so it lives in `docs/` as an illustration instead of shipping as a wallpaper.
 
-## Check it yourself
+## Measured, not eyeballed
 
-```sh
-python3 tools/check.py colors.toml
-```
-
-Python 3.11 or newer, nothing else. It runs 38 checks: terminal and editor contrast, red–green separation under a simulation of red-green color blindness, and lock screen and launcher text against the brightest and darkest wallpaper pixel a screen can show. [DESIGN.md](DESIGN.md) explains every one and lists the measured values.
+Every color pair Omarchy actually draws was measured: terminal and editor contrast, red–green separation under a simulation of red-green color blindness, and lock screen and launcher text against the brightest and darkest wallpaper pixel a screen can show. That is 38 checks in all. [DESIGN.md](DESIGN.md) explains every one and lists the measured values.
 
 ## Credits and license
 
-The ideas are Goethe's, from *Zur Farbenlehre* (1810), which is in the public domain. The four wallpapers are AI-generated; [ASSETS.md](ASSETS.md) records how each one was made, and [GENERATION.md](GENERATION.md) holds the prompts for the three that have them. The palette, `tools/check.py` and the written notes are original work. Everything in this repository is released under the MIT license.
+The ideas are Goethe's, from *Zur Farbenlehre* (1810), which is in the public domain. The four wallpapers are AI-generated; [ASSETS.md](ASSETS.md) records how each one was made, and [GENERATION.md](GENERATION.md) holds the prompts for the three that have them. The palette and the written notes are original work. Everything in this repository is released under the MIT license.

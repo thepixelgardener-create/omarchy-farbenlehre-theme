@@ -12,7 +12,7 @@ The three wallpapers are AI-generated painterly interpretations of Goethe’s id
 
 All three PNGs are 1672×941, the native resolution returned by the generator. They are not native 4K images, and a 4K screen upscales them about 2.3×. Inspect cropping on the intended display.
 
-The checker uses black and white bounds instead of samples from the old artwork, so its overlay contrast checks apply to all three wallpapers at the modeled opacity values.
+The overlay contrast checks use black and white bounds instead of samples from the old artwork, so they apply to all three wallpapers at the modeled opacity values.
 
 ## Illustration
 
@@ -24,4 +24,4 @@ The checker uses black and white bounds instead of samples from the old artwork,
 
 ## License
 
-The repository’s MIT license remains in place. The three wallpapers and the Grenze illustration are AI-generated; the earlier claim that every wallpaper was drawn with Pillow no longer applies to any of them. The palette, `tools/check.py` and the written notes are original work.
+The repository’s MIT license remains in place. The three wallpapers and the Grenze illustration are AI-generated; the earlier claim that every wallpaper was drawn with Pillow no longer applies to any of them. The palette and the written notes are original work.

@@ -2,7 +2,7 @@
 
 Farbenlehre is a dark Omarchy theme built on Johann Wolfgang von Goethe's *Zur Farbenlehre* (Theory of Colours), published in 1810. Goethe died in 1832; the book, his color circle and his experiments have long been in the public domain. The theme takes his ideas, not any particular edition, translation or image.
 
-This file is the contract for the palette. If a value changes, the rule it follows should still hold, and `tools/check.py` should still pass.
+This file is the contract for the palette. If a value changes, the rule it follows should still hold, and the values below should be measured again.
 
 ## Goals
 
@@ -68,17 +68,9 @@ On his 1809 color circle Goethe wrote a quality beside each color. They don't dr
 
 The bright variants keep the same hues and add brightness. `hyprland_active_border` is a gradient from the accent to the red at 45°; `hyprland_inactive_border` is the muted grey.
 
-## Check it yourself
-
-```sh
-python3 tools/check.py colors.toml
-```
-
-Requires Python 3.11 or newer, with no additional packages. Checks palette contrast, red–green separation, and wallpaper overlay contrast at the modeled 80% lock-screen and 95% launcher background opacity.
-
 ## Measured results
 
-`python3 tools/check.py colors.toml` runs 38 checks, including conservative wallpaper overlay bounds. Black and white bound every sRGB wallpaper pixel; the checker also verifies that foreground luminance exceeds the brightest possible overlay. Under the modeled 80% and 95% background opacity, white therefore gives the lowest text contrast. These checks do not inspect composition or cropping.
+The palette is held to 38 checks: palette contrast, red–green separation, and wallpaper overlay contrast at the modeled 80% lock-screen and 95% launcher background opacity, with conservative overlay bounds. Black and white bound every sRGB wallpaper pixel, and foreground luminance exceeds the brightest possible overlay. Under the modeled 80% and 95% background opacity, white therefore gives the lowest text contrast. These checks do not inspect composition or cropping.
 
 | Check | Result | Target |
 |---|---|---|
@@ -92,7 +84,7 @@ Requires Python 3.11 or newer, with no additional packages. Checks palette contr
 | Red vs green, protanopia | 0.250 | 0.10 |
 | Closest signal pair (blue/magenta) | 0.124 | 0.07 |
 
-The checker follows the colors Omarchy's own templates draw: terminal ANSI colors and search highlights, the editor cursor line and selection, btop highlights and the selected process row, shell controls, menu and launcher selection, polkit and lock errors, and lock and launcher text over the wallpapers. Contrast uses WCAG 2; colorblind views use the Machado 2009 simulation at full severity; distances are measured in OKLab. The two distance thresholds are working choices from comparing about 80 existing Omarchy themes, not a standard.
+The checks follow the colors Omarchy's own templates draw: terminal ANSI colors and search highlights, the editor cursor line and selection, btop highlights and the selected process row, shell controls, menu and launcher selection, polkit and lock errors, and lock and launcher text over the wallpapers. Contrast uses WCAG 2; colorblind views use the Machado 2009 simulation at full severity; distances are measured in OKLab. The two distance thresholds are working choices from comparing about 80 existing Omarchy themes, not a standard.
 
 ## Known trade-offs
 
@@ -102,13 +94,13 @@ The checker follows the colors Omarchy's own templates draw: terminal ANSI color
 
 ## What the theme ships, and what it leaves to Omarchy
 
-Shipped: `colors.toml`, `icons.theme`, three wallpapers, `preview.png`, these notes and the `tools/` folder.
+Shipped: `colors.toml`, `icons.theme`, three wallpapers, `preview.png` and these notes.
 
 Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, btop, Chromium, the shell and Hyprland. Omarchy generates them from `colors.toml`, and the checks above cover the colors those templates use. Omarchy also drops `.lua` files, terminal configs and `vscode.json` from themes installed through git, so shipping them would not work anyway.
 
 ## Release checklist
 
-1. `python3 tools/check.py colors.toml` passes.
+1. Measure the palette again: contrast, red–green separation and the wallpaper overlay bounds still meet the targets above.
 2. Inspect the wallpaper PNGs and their provenance in ASSETS.md.
 3. Push, then install from the clean URL: `omarchy theme install <repo-url>`.
 4. Run `omarchy dev theme-preview farbenlehre` and look at the ramp and the selected-text sample.
