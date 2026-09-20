@@ -6,9 +6,21 @@ A dark theme for [Omarchy](https://omarchy.org), built on Goethe's *Theory of Co
 
 Real Omarchy desktop capture with Bash, Neovim on `colors.toml`, btop and the Omarchy menu, over the Farbenkreis wallpaper.
 
+## Install
+
+From the Omarchy menu: press **Super + Space**, then **Install → Style → Theme**, and paste the repository URL when it asks:
+
+```
+https://github.com/thepixelgardener-create/omarchy-farbenlehre-theme
+```
+
+Or straight from a terminal:
+
 ```sh
 omarchy theme install https://github.com/thepixelgardener-create/omarchy-farbenlehre-theme
 ```
+
+Either way Omarchy clones the repo, generates the terminal, editor and shell colors from `colors.toml`, and switches to the theme. Pick a wallpaper afterwards with **Super + Ctrl + Space**.
 
 ## What makes it different
 
