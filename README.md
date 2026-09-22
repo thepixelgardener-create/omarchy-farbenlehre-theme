@@ -32,13 +32,12 @@ Either way Omarchy clones the repo, generates the terminal, editor and shell col
 
 ## Wallpapers
 
-Three wallpapers interpreting Goethe’s ideas:
+Four wallpapers interpreting Goethe’s ideas:
 
 1. **Farbenkreis:** Six pigment veils circling over moonlit water, watched from the ruins.
 2. **Trübe:** warm and cold light emerging through a misty landscape.
 3. **Kanten:** warm and cold fringes at a luminous opening between dark stone planes.
-
-A fourth image, [Grenze](docs/grenze.png), sets Newton’s prism against Goethe’s world of perceived color. It carries lettering at its edges and loses some of it on a wide or tall crop, so it lives in `docs/` as an illustration instead of shipping as a wallpaper.
+4. **Dämmerung:** Goethe’s study at dusk, where warm candlelight meets the last blue twilight.
 
 ## Measured, not eyeballed
 
@@ -46,4 +45,4 @@ Every color pair Omarchy actually draws was measured: terminal and editor contra
 
 ## Credits and license
 
-The ideas are Goethe's, from *Zur Farbenlehre* (1810), which is in the public domain. The four wallpapers are AI-generated; [ASSETS.md](ASSETS.md) records how each one was made, and [GENERATION.md](GENERATION.md) holds the prompts for the three that have them. The palette and the written notes are original work. Everything in this repository is released under the MIT license.
+The ideas are Goethe's, from *Zur Farbenlehre* (1810), which is in the public domain. The four wallpapers are AI-generated; [ASSETS.md](ASSETS.md) records how each one was made, and [GENERATION.md](GENERATION.md) holds their prompts. The palette and the written notes are original work. Everything in this repository is released under the MIT license.

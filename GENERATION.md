@@ -1,6 +1,8 @@
 # Wallpaper generation
 
-The wallpapers and the `docs/grenze.png` illustration are AI-generated artistic interpretations of the repository's Goethe-inspired design, not scientific diagrams. The three wallpapers were created with the built-in OpenAI image generation tool and the prompts below are the ones actually used. An earlier round asked for "3840x2160" in the prompt text and was returned at 1672×941 regardless: the output size is fixed by the generator and cannot be prompted, so the prompts now ask for a 16:9 landscape and leave resolution out. `docs/grenze.png` predates them and is preserved unchanged.
+The wallpapers are AI-generated artistic interpretations of the repository's Goethe-inspired design, not scientific diagrams. The first three were created with the built-in OpenAI image generation tool, `04-daemmerung.png` was made later in ChatGPT, and the prompts below are the ones actually used. An earlier round asked for "3840x2160" in the prompt text and was returned at 1672×941 regardless: the output size is fixed by the generator and cannot be prompted, so the prompts now ask for a 16:9 landscape and leave resolution out.
+
+The fourth prompt is deliberately short. Longer versions asked for one pencil casting a blue and an amber shadow, Goethe's coloured shadows, and the generator kept placing the shadows where the light could not put them. Leaving the composition to the generator gave a better picture.
 
 ## 01-farbenkreis.png
 
@@ -14,6 +16,6 @@ Use case: stylized-concept. Create one premium 16:9 landscape desktop wallpaper 
 
 Use case: stylized-concept. Create one premium 16:9 landscape desktop wallpaper for Farbenlehre, an Omarchy dark theme inspired by Goethe's Theory of Colours. Painterly Romantic atmosphere, layered mineral pigments, delicate grain, luminous restrained color emerging from blue-black #0f141c darkness. Rich crafted fine-art image, not a diagram or UI. Large calm dark areas, central subject safe for wide and tall crops. No text, letters, labels, logos, watermarks, borders, desktop windows. Kanten / edge colors: a monumental oblique slab of soft ivory light emerging from darkness like the opening between two ancient dark stone planes. Along one edge, extremely fine blue and violet fringes; along the opposite edge, gold and restrained orange-red fringes. Color exists at the meeting of light and shadow, fading into a nearly black blue mineral background. Cropped abstract architectural composition with the luminous opening small enough to leave most of the wallpaper dark. Subtle textured brushwork, photographic optical delicacy, no prism triangle, no rainbow beam.
 
-## docs/grenze.png
+## 04-daemmerung.png
 
-Generated in ChatGPT before the three wallpapers. The prompt was not preserved, so it cannot be reproduced here; the image is kept as delivered. It sets Newton's prism against Goethe's world of perceived color in a dark painterly landscape, and unlike the wallpapers it contains lettering, which is why it is an illustration rather than a background.
+A 16:9 painterly desktop wallpaper, Romantic style, mostly deep blue-black darkness (#0f141c). Goethe's quiet study at dusk: a single candle on a wooden table beside a sheet of blank paper, a tall window with the last blue twilight. Warm candlelight meets cool twilight. Calm, still, the centre of the image left dark. No text, no people.

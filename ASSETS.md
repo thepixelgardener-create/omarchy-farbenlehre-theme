@@ -2,21 +2,20 @@
 
 ## Wallpapers
 
-The three wallpapers are AI-generated painterly interpretations of Goethe’s ideas, made with the built-in OpenAI image generation tool and guided by DESIGN.md. Their exact prompts are recorded in GENERATION.md.
+The four wallpapers are AI-generated painterly interpretations of Goethe’s ideas, guided by DESIGN.md. The first three were made with the built-in OpenAI image generation tool; `04-daemmerung.png` was made later in ChatGPT from a much shorter prompt. All four prompts are recorded in GENERATION.md.
 
 | File | Idea |
 |---|---|
 | `01-farbenkreis.png` | Six pigment veils circling a dark center over moonlit water, watched from the ruins by a seated figure |
 | `02-truebe.png` | Warm light and cool darkness seen through atmospheric haze |
 | `03-kanten.png` | Cool and warm fringes at the boundary between light and dark stone |
+| `04-daemmerung.png` | Goethe’s study at dusk: warm candlelight on the desk against the last blue twilight in the window, watched by his bust |
 
-All three PNGs are 1672×941, the native resolution returned by the generator. They are not native 4K images, and a 4K screen upscales them about 2.3×. Inspect cropping on the intended display.
+All four PNGs are 1672×941, the native resolution returned by the generator. They are not native 4K images, and a 4K screen upscales them about 2.3×. Inspect cropping on the intended display.
 
-The overlay contrast checks use black and white bounds instead of samples from the old artwork, so they apply to all three wallpapers at the modeled opacity values.
+`04-daemmerung.png` keeps its middle a dark wall and curtain, so the lock screen and launcher text never land on the candle or the window. A 21:9 crop trims the top of the window and the rug. A 16:10 crop cuts through the bust of Goethe at the right edge, and a 3:2 crop loses it entirely; the candle, desk and window survive every crop.
 
-## Illustration
-
-`docs/grenze.png` sets Newton’s prism against Goethe’s world of perceived color in a painterly landscape. It was generated in ChatGPT before the wallpapers and its prompt was not kept. It shipped in `backgrounds/` until it was moved here: unlike the wallpapers it carries lettering near all four edges, which a 21:9 crop cuts by 12% top and bottom and a 16:10 crop by 5% per side, and which competes with the lock screen and launcher text drawn over a wallpaper.
+The overlay contrast checks use black and white bounds instead of samples from the old artwork, so they apply to all four wallpapers at the modeled opacity values.
 
 ## Preview
 
@@ -24,4 +23,4 @@ The overlay contrast checks use black and white bounds instead of samples from t
 
 ## License
 
-The repository’s MIT license remains in place. The three wallpapers and the Grenze illustration are AI-generated; the earlier claim that every wallpaper was drawn with Pillow no longer applies to any of them. The palette and the written notes are original work.
+The repository’s MIT license remains in place. The four wallpapers are AI-generated; the earlier claim that every wallpaper was drawn with Pillow no longer applies to any of them. The palette and the written notes are original work.
