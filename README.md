@@ -4,7 +4,7 @@ A dark theme for [Omarchy](https://omarchy.org), inspired by Goethe's *Theory of
 
 ![Farbenlehre: Bash, Neovim, btop and the Omarchy menu](preview.png?v=20260917-regenerated)
 
-*A real Omarchy desktop: Bash, Neovim, btop and the Omarchy menu over Farbenkreis. The screenshot is 4K; the original wallpaper is 1672 × 941.*
+*A real Omarchy desktop: Bash, Neovim, btop and the Omarchy menu over Farbenkreis. The screenshot is 4K and was taken before the wallpapers were upscaled to 4K.*
 
 ## Install
 
@@ -38,19 +38,19 @@ Click a preview to open the original image.
 
 | Farbenkreis | Trübe |
 | --- | --- |
-| [![Farbenkreis: a circle of colored pigment over moonlit water](backgrounds/01-farbenkreis.png)](backgrounds/01-farbenkreis.png) | [![Trübe: warm and cool light across a misty landscape](backgrounds/02-truebe.png)](backgrounds/02-truebe.png) |
+| [![Farbenkreis: a circle of colored pigment over moonlit water](backgrounds/01-farbenkreis.webp)](backgrounds/01-farbenkreis.webp) | [![Trübe: warm and cool light across a misty landscape](backgrounds/02-truebe.webp)](backgrounds/02-truebe.webp) |
 | Six pigment veils circling over moonlit water, watched from the ruins. | Warm light and cool darkness emerging through atmospheric haze. |
 
 | Kanten | Dämmerung |
 | --- | --- |
-| [![Kanten: colored fringes along a luminous opening in dark stone](backgrounds/03-kanten.png)](backgrounds/03-kanten.png) | [![Dämmerung: warm candlelight and blue twilight in Goethe's study](backgrounds/04-daemmerung.png)](backgrounds/04-daemmerung.png) |
-| Warm and cool fringes where light meets dark stone. | Goethe’s study at dusk, where warm candlelight meets the last blue twilight. |
+| [![Kanten: colored fringes along a luminous opening in dark stone](backgrounds/03-kanten.webp)](backgrounds/03-kanten.webp) | [![Dämmerung: warm candlelight and blue twilight in Goethe's study](backgrounds/04-daemmerung.webp)](backgrounds/04-daemmerung.webp) |
+| Warm and cool fringes where light meets dark stone. | Goethe’s study at dusk, where warm candlelight meets the last blue twilight. Also included [animated](backgrounds/04-daemmerung.mp4): the flame flickers and the room breathes with its light. |
 
 ### Resolution and displays
 
-This edition preserves all four wallpapers at their original **1672 × 941** resolution, approximately 16:9. Omarchy scales them to fill the display; on a 3840 × 2160 screen, that means enlarging them about 2.3×. Ultrawide, 16:10 and portrait screens crop the composition differently.
+All four wallpapers are **3840 × 2160**, upscaled from the generator's 1672 × 941 originals, so they are sharp on a 4K display. Ultrawide, 16:10 and portrait screens crop the composition differently.
 
-A **4K variant is planned as a separate edition**. The wallpapers included here remain the original versions. [ASSETS.md](ASSETS.md) records their dimensions and provenance.
+Dämmerung also comes as a 12-second seamless 4K video loop, `04-daemmerung.mp4`. Omarchy plays video backgrounds natively; pick it with **Super + Ctrl + Space** like any other wallpaper, or keep the still. [ASSETS.md](ASSETS.md) records dimensions and provenance.
 
 ## Palette checks
 

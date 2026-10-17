@@ -101,7 +101,7 @@ Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, b
 ## Release checklist
 
 1. Measure the palette again: contrast, red–green separation and the wallpaper overlay bounds still meet the targets above.
-2. Inspect the wallpaper PNGs and their provenance in ASSETS.md.
+2. Inspect the wallpapers and their provenance in ASSETS.md.
 3. Push, then install from the clean URL: `omarchy theme install <repo-url>`.
 4. Run `omarchy dev theme-preview farbenlehre` and look at the ramp and the selected-text sample.
 5. Look at a terminal with `git diff`, Neovim, btop, the Omarchy menu, a notification and the lock screen.
