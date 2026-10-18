@@ -44,13 +44,13 @@ Click a preview to open the original image.
 | Kanten | Dämmerung |
 | --- | --- |
 | [![Kanten: colored fringes along a luminous opening in dark stone](backgrounds/03-kanten.webp)](backgrounds/03-kanten.webp) | [![Dämmerung: warm candlelight and blue twilight in Goethe's study](backgrounds/04-daemmerung.webp)](backgrounds/04-daemmerung.webp) |
-| Warm and cool fringes where light meets dark stone. | Goethe’s study at dusk, where warm candlelight meets the last blue twilight. Also included [animated](backgrounds/04-daemmerung.mp4): the flame flickers and the room breathes with its light. |
+| Warm and cool fringes where light meets dark stone. | Goethe’s study at dusk, where warm candlelight meets the last blue twilight. It comes with an [intro](backgrounds/intros/04-daemmerung.mp4): the flame flickers and the room breathes with its light, then settles back into the still. |
 
 ### Resolution and displays
 
 All four wallpapers are **3840 × 2160**, upscaled from the generator's 1672 × 941 originals, so they are sharp on a 4K display. Ultrawide, 16:10 and portrait screens crop the composition differently.
 
-Dämmerung also comes as a 12-second seamless 4K video loop, `04-daemmerung.mp4`. Omarchy plays video backgrounds natively; pick it with **Super + Ctrl + Space** like any other wallpaper, or keep the still. [ASSETS.md](ASSETS.md) records dimensions and provenance.
+Dämmerung also has a 7-second intro, `intros/04-daemmerung.mp4`, which plays once in the way of the built-in themes' intros: when you log in or switch to Farbenlehre with Dämmerung as the wallpaper. It starts and ends on the still, so the desktop simply comes to rest on it. Turn intros off with `omarchy theme bg intro disable`. [ASSETS.md](ASSETS.md) records dimensions and provenance.
 
 ## Palette checks
 
