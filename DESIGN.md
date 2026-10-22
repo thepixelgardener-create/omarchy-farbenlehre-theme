@@ -94,7 +94,7 @@ The checks follow the colors Omarchy's own templates draw: terminal ANSI colors 
 
 ## What the theme ships, and what it leaves to Omarchy
 
-Shipped: `colors.toml`, `icons.theme`, four wallpapers, `preview.png` and these notes.
+Shipped: `colors.toml`, `icons.theme`, four wallpapers, `preview.webp` and these notes.
 
 Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, btop, Chromium, the shell and Hyprland. Omarchy generates them from `colors.toml`, and the checks above cover the colors those templates use. Omarchy also drops `.lua` files, terminal configs and `vscode.json` from themes installed through git, so shipping them would not work anyway.
 
@@ -105,5 +105,5 @@ Left to Omarchy's templates on purpose: the terminal configs, Neovim, VS Code, b
 3. Push, then install from the clean URL: `omarchy theme install <repo-url>`.
 4. Run `omarchy dev theme-preview farbenlehre` and look at the ramp and the selected-text sample.
 5. Look at a terminal with `git diff`, Neovim, btop, the Omarchy menu, a notification and the lock screen.
-6. Keep `preview.png` current with a real desktop screenshot. The current capture shows Bash, a palette editor, btop, the Omarchy menu and bar, with the replacement Farbenkreis wallpaper behind them.
+6. Keep `preview.webp` current with a real desktop screenshot. The current capture shows Bash, Neovim on `colors.toml`, btop and the bar, with the 4K Farbenkreis wallpaper behind them.
 7. Check each wallpaper on the widest and the tallest screen you have.

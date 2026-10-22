@@ -22,7 +22,7 @@ The overlay contrast checks use black and white bounds instead of samples from t
 
 ## Preview
 
-`preview.png` is a real 3840×2160 Omarchy desktop screenshot showing Bash, Neovim on `colors.toml`, btop, the open Omarchy menu, the live bar and an exposed area of the current Farbenkreis wallpaper. Neovim is an ordinary Omarchy LazyVim setup rendering the theme's generated colors, not a mock. btop runs with its process list switched off, so the capture does not publish a list of what was running. Its CPU graphs show load generated during the capture, so the panels are not flat. Captured on 2026-09-17. The screenshot predates the 4K wallpapers: the desktop scaled up the earlier 1672×941 Farbenkreis.
+`preview.webp` is a real 3840×2160 Omarchy desktop screenshot, saved as WebP at quality 90 (675 KB instead of 5 MB as PNG), showing Bash, Neovim on `colors.toml`, btop, the live bar and the middle of the 4K Farbenkreis wallpaper. Neovim is an ordinary Omarchy LazyVim setup rendering the theme's generated colors, not a mock. btop shows only its CPU, memory and disk panels, so the capture publishes neither a list of what was running nor a network address. Captured on 2026-10-22.
 
 ## License
 

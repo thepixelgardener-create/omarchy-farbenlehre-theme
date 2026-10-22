@@ -2,9 +2,9 @@
 
 A dark theme for [Omarchy](https://omarchy.org), inspired by Goethe's *Theory of Colours* (1810). Blue-black surfaces, warm text and a yellow accent, paired with four painterly wallpapers exploring light, darkness and color.
 
-![Farbenlehre: Bash, Neovim, btop and the Omarchy menu](preview.png?v=20260917-regenerated)
+![Farbenlehre: Bash, Neovim and btop over the Farbenkreis wallpaper](preview.webp?v=20261022)
 
-*A real Omarchy desktop: Bash, Neovim, btop and the Omarchy menu over Farbenkreis. The screenshot is 4K and was taken before the wallpapers were upscaled to 4K.*
+*A real 4K Omarchy desktop: Bash, Neovim and btop over Farbenkreis.*
 
 ## Install
 
