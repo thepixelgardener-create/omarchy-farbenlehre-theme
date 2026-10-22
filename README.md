@@ -1,6 +1,6 @@
 # Farbenlehre
 
-A dark theme for [Omarchy](https://omarchy.org), inspired by Goethe's *Theory of Colours* (1810). Blue-black surfaces, warm text and a yellow accent, paired with four painterly wallpapers exploring light, darkness and color.
+A dark theme for [Omarchy](https://omarchy.org), inspired by Goethe's *Theory of Colours* (1810). Blue-black surfaces, warm text and a yellow accent, paired with six painterly wallpapers exploring light, darkness and color.
 
 ![Farbenlehre: Bash, Neovim and btop over the Farbenkreis wallpaper](preview.webp?v=20261022)
 
@@ -46,9 +46,14 @@ Click a preview to open the original image.
 | [![Kanten: colored fringes along a luminous opening in dark stone](backgrounds/03-kanten.webp)](backgrounds/03-kanten.webp) | [![Dämmerung: warm candlelight and blue twilight in Goethe's study](backgrounds/04-daemmerung.webp)](backgrounds/04-daemmerung.webp) |
 | Warm and cool fringes where light meets dark stone. | Goethe’s study at dusk, where warm candlelight meets the last blue twilight. It comes with an [intro](backgrounds/intros/04-daemmerung.mp4): the flame flickers and the room breathes with its light, then settles back into the still. |
 
+| Winterzug | Das Werdende |
+| --- | --- |
+| [![Winterzug: the snow-covered Brocken by moonlight, golden snow under a stormy night sky](backgrounds/05-winterzug.webp)](backgrounds/05-winterzug.webp) | [![Das Werdende: an ambiguous organic form of golden arches and membranes emerging from darkness](backgrounds/06-werdende.webp)](backgrounds/06-werdende.webp) |
+| The Brocken on a winter night, after Goethe's own sketch from his Harz journey of 1777: moonlight turns the snow gold and its shadows lilac. | Becoming: a form that is neither plant, mineral nor architecture grows out of the dark, lit amber and gold at its edges, lavender in its depths. |
+
 ### Resolution and displays
 
-All four wallpapers are **3840 × 2160**, upscaled from the generator's 1672 × 941 originals, so they are sharp on a 4K display. Ultrawide, 16:10 and portrait screens crop the composition differently.
+All six wallpapers are **3840 × 2160**, upscaled from the generator's 1672 × 941 originals, so they are sharp on a 4K display. Ultrawide, 16:10 and portrait screens crop the composition differently.
 
 Dämmerung also has a 7-second intro, `intros/04-daemmerung.mp4`, which plays once in the way of the built-in themes' intros: when you log in or switch to Farbenlehre with Dämmerung as the wallpaper. It starts and ends on the still, so the desktop simply comes to rest on it. Turn intros off with `omarchy theme bg intro disable`. [ASSETS.md](ASSETS.md) records dimensions and provenance.
 
@@ -67,6 +72,6 @@ The design notes record 38 checks covering palette contrast, simulated red–gre
 
 ## Credits and license
 
-The ideas come from Goethe's *Zur Farbenlehre* (1810), a public-domain work. The four wallpapers are AI-generated. [ASSETS.md](ASSETS.md) records their provenance, and [GENERATION.md](GENERATION.md) preserves their prompts. The palette and written notes are original work.
+The ideas come from Goethe's *Zur Farbenlehre* (1810), a public-domain work. The six wallpapers are AI-generated. [ASSETS.md](ASSETS.md) records their provenance, and [GENERATION.md](GENERATION.md) preserves their prompts. The palette and written notes are original work.
 
 Released under the [MIT license](LICENSE).
